@@ -11,4 +11,9 @@ class Jabatan extends Model
         'nama',
         'gaji_pokok',
     ];
+
+    public function tunjangan()
+    {
+        return $this->morphMany(Tunjangan::class, 'tunjanganable');
+    }
 }
