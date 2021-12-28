@@ -36,4 +36,8 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('user/select2_data', 'UserController@select2Data')->name('user.select2Data');
     Route::get('user/table_data', 'UserController@tableData')->name('user.tableData');
     Route::resource('user', 'UserController');
+
+    Route::get('jabatan/select2_data', 'JabatanController@select2Data')->name('jabatan.select2Data');
+    Route::get('jabatan/table_data', 'JabatanController@tableData')->name('jabatan.tableData');
+    Route::resource('jabatan', 'JabatanController');
 });

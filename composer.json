@@ -16,6 +16,7 @@
         "laravel/tinker": "^2.5",
         "laravel/ui": "2.0",
         "laravolt/avatar": "^4.1",
+        "orangehill/iseed": "2.2",
         "spatie/laravel-permission": "^5.4"
     },
     "require-dev": {

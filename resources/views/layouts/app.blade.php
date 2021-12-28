@@ -523,19 +523,14 @@
                         </li>
 
                         <li>
-                            <a href="#sidebarProjects" data-bs-toggle="collapse">
-                                <i data-feather="briefcase"></i>
-                                <span> Projects </span>
+                            <a href="#data-master" data-bs-toggle="collapse">
+                                <i data-feather="database"></i>
+                                <span> Data Master </span>
                                 <span class="menu-arrow"></span>
                             </a>
-                            <div class="collapse" id="sidebarProjects">
+                            <div class="collapse" id="data-master">
                                 <ul class="nav-second-level">
-                                    <li>
-                                        <a href="project-list.html">List</a>
-                                    </li>
-                                    <li>
-                                        <a href="project-detail.html">Detail</a>
-                                    </li>
+                                    <li><a href="{{ route('jabatan.index') }}">Jabatan</a></li>
                                 </ul>
                             </div>
                         </li>
